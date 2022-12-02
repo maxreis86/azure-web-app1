@@ -18,6 +18,7 @@ def home():
 
 @app.route('/predict',methods = ['POST'])
 def predict():
+    print(request.form.to_dict())
     
     dataprep_df  = pd.DataFrame(request.form.to_dict(), index=[0])
     
