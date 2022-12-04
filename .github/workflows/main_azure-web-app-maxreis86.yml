@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'azure-web-app-maxreis86'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_40D71C65F5DF49C6A76788CD04F5D11A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_14FBCCBFE4934B05A0943F3315127CBD }}
